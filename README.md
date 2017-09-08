@@ -1,3 +1,22 @@
+# 环境说明
+服务端我使用了最新的 nodejs 代码，https://github.com/NetEase/pomelo
+启动服务的时候，选择 1，iOS 客户端就可以使用这个代码连接服务器了。
+
+```
+qianlongxu:testpomelo qianlongxu$ pomelo init ./HelloWorld
+
+The default admin user is: 
+
+  username: admin
+  password: admin
+
+You can configure admin users by editing adminUser.json later.
+ 
+Please select underly connector, 1 for websocket(native socket), 2 for socket.io, 3 for wss, 4 for socket.io(wss), 5 for udp, 6 for mqtt: [1]
+1
+```
+
+
 Websocket-Pomelo
 ================
 
